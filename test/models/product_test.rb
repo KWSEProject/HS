@@ -12,7 +12,7 @@ class ProductTest < ActiveSupport::TestCase
 
 	test "product price must be positive" do
 		product = Product.new(title: "blouse",
-				description: "yyy",
+				description: "blouse",
 				image_url: "blouse.PNG")
 		
 		product.price = -1
